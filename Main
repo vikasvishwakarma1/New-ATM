@@ -1,0 +1,13 @@
+package MyPackage;
+
+public class Main {
+	public static void main(String[] args) {
+        User user = new User(123456789, 1234, "Vikas Vishwakarma");
+        ATM atm = new ATM(user, 5000);
+        atm.run();
+        
+        
+        // implement user input and display interface
+    }
+
+}
